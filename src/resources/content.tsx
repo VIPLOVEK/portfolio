@@ -170,6 +170,18 @@ const about: About = {
         ),
         link: "https://www.amazon.com/dp/B0FM76WZ4Z",
       },
+      {
+        title: "Software Supply Chain Security: Core Systems and Security Guidelines",
+        authors: "Anupam Mehta, Davinder Pal Singh, Viplove Karhade, Preyansh Matharoo",
+        description: (
+          <>
+            A framework for strengthening key components of the software supply chain — Source Code Management,
+            CI/CD systems, and artifact storage — outlining core security practices for architectural design,
+            access management, logging, and monitoring. Published in Science and Technology, Vol. 14 No. 2, 2024.
+          </>
+        ),
+        link: "http://article.sapub.org/10.5923.j.scit.20241402.03.html",
+      },
     ],
   },
   technical: {

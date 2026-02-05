@@ -317,7 +317,7 @@ export default function About() {
                       <Button
                         href={publication.link}
                         prefixIcon="arrowUpRight"
-                        label="View on Amazon"
+                        label="View Publication"
                         size="s"
                         variant="secondary"
                       />
