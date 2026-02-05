@@ -114,66 +114,27 @@ const about: About = {
         role: "Senior Infrastructure Security Engineer",
         achievements: [
           <>
-            Architected and led enterprise-scale infrastructure security initiatives for complex hybrid cloud environments,
-            implementing automated security assurance frameworks that reduced risk exposure across critical infrastructure.
-          </>,
-          <>
-            Pioneered comprehensive threat modeling and architecture risk analysis methodologies, conducting deep-dive
-            security design reviews that significantly enhanced risk visibility and strengthened security governance for
-            business-critical cloud services.
-          </>,
-          <>
-            Championed Kubernetes security hardening initiatives enterprise-wide, developing and enforcing container
-            security best practices that established secure-by-design principles across microservices architectures.
-          </>,
-          <>
-            Provided strategic security consultation on infrastructure design decisions, expertly balancing security
-            requirements with business objectives to enable rapid innovation while maintaining robust compliance posture.
+            Leading security strategy across AI, Agentic, and Public Cloud ecosystems at enterprise scale. Established
+            security research and governance for the Model Context Protocol (MCP) and drove the safe adoption of AI coding
+            tools (Cursor, Windsurf, Claude Code) for Salesforce's global developer population. Spearheaded infrastructure
+            security initiatives including secure design reviews for cloud migrations, privileged access governance for
+            production infrastructure, and network security transformations for core services. Authored the Security Review
+            Playbook and led GCP Security training to uplift the broader security organization.
           </>,
         ],
         images: [],
       },
       {
-        company: "Synopsys Inc",
-        timeframe: "December 2016 - June 2022",
+        company: "Synopsys (formerly Cigital)",
+        timeframe: "Jan 2016 - May 2022",
         role: "Associate Principal Consultant",
         achievements: [
           <>
-            Delivered 100+ high-impact security assessments for Fortune 500 enterprises across financial services, healthcare,
-            and technology verticals, uncovering and remediating critical vulnerabilities that prevented potential breaches
-            worth millions in damages.
-          </>,
-          <>
-            Established industry-leading Container Security Standards and conducted advanced Kubernetes/Docker security
-            assessments, analyzing cluster configurations, RBAC policies, network policies, and admission controllers to
-            secure containerized workloads at scale.
-          </>,
-          <>
-            Led comprehensive security testing engagements spanning web application penetration testing (Java, Node.js,
-            Angular stacks), mobile application security assessments (Android SDK, iOS platforms), network infrastructure
-            evaluations, and secure code reviews using static analysis tools.
-          </>,
-          <>
-            Drove security framework optimization initiatives for highly-regulated industries, implementing defense-in-depth
-            strategies that significantly reduced attack surface while mentoring junior consultants in advanced security
-            methodologies and threat analysis techniques.
-          </>,
-        ],
-        images: [],
-      },
-      {
-        company: "Nok Nok Labs",
-        timeframe: "June 2014 - December 2014",
-        role: "Security Engineer (Internship)",
-        achievements: [
-          <>
-            Engineered secure Multi-Factor Authentication (MFA) client leveraging Bluetooth Low Energy protocols for
-            cryptographically secure device bootstrapping and passwordless authentication workflows.
-          </>,
-          <>
-            Designed and implemented innovative Proof-of-Concept solutions for next-generation authentication security
-            protocols, collaborating with cross-functional teams to advance FIDO Alliance standards and strengthen
-            enterprise authentication posture.
+            Spent six years in security consulting, advising enterprises on secure architecture, threat modeling, and risk
+            governance. Led end-to-end security assessments across web, mobile (iOS/Android), network, and API services
+            using tools like Burp Suite and IBM AppScan. Performed Architecture Risk Analysis to identify systemic design
+            flaws in cloud-native and on-premise applications, and guided global stakeholders through risk acceptance and
+            remediation procedures.
           </>,
         ],
         images: [],
