@@ -90,14 +90,17 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Viplove is a Senior Infrastructure Security Engineer at Salesforce, specializing in securing enterprise-scale
-        cloud environments and critical infrastructure. With a Master's in Information Assurance from Northeastern University
-        and certifications including CKA and AWS Cloud Practitioner, he brings 8+ years of expertise in cloud security architecture,
-        Kubernetes security hardening, and threat modeling. His work spans Fortune 500 clients across financial services, healthcare,
-        and technology sectors, where he's conducted 100+ security assessments, developed container security standards, and led
-        infrastructure security initiatives. From penetration testing and secure code reviews to mobile application security and
-        multi-factor authentication systems, Viplove combines deep technical knowledge with strategic security thinking to protect
-        organizations from evolving cyber threats.
+        Viplove is a Senior Infrastructure Security Engineer at Salesforce, specializing in building secure
+        'Paved Paths' for AI, Agentic, and Public Cloud ecosystems. He leads security research and governance
+        for emerging technologies including the Model Context Protocol (MCP), and has driven the safe
+        enterprise-wide adoption of AI coding tools such as Cursor, Windsurf, and Claude Code for the global
+        developer population. His work spans infrastructure security and systemic risk — from complex secure
+        design reviews for public cloud migrations and infrastructure decommissions, to engineering privileged
+        access governance frameworks and leading network security transformations. Prior to Salesforce, Viplove
+        spent six years at Synopsys (formerly Cigital) as an Associate Principal Consultant, leading security
+        assessments for web, mobile, network, and API services, and advising on secure architecture and threat
+        modeling for cloud-native and on-premise applications. He holds a Master's in Information Assurance
+        from Northeastern University and is a Certified Kubernetes Administrator (CKA).
       </>
     ),
   },
