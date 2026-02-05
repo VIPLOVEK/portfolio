@@ -1,5 +1,5 @@
 import { About, Blog, Gallery, Home, LifeHacks, Newsletter, Person, Social, Work } from "@/types";
-import { Line, Row, Text } from "@once-ui-system/core";
+import { Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Viplove",
@@ -48,23 +48,15 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Securing cloud infrastructure at enterprise scale</>,
+  headline: <>Building secure foundations for AI and cloud at enterprise scale</>,
   featured: {
-    display: true,
-    title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">CKA Certified</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Kubernetes Expert
-        </Text>
-      </Row>
-    ),
-    href: "/work/kubernetes-security-best-practices",
+    display: false,
+    title: <></>,
+    href: "",
   },
   subline: (
     <>
-    I'm Viplove, a Senior Infrastructure Security Engineer at <Text as="span" size="xl" weight="strong">Salesforce</Text>, specializing in cloud security, <br /> Kubernetes, and threat modeling. CKA & AWS Cloud Practitioner certified with 8+ years of experience.
+    I'm Viplove, a Senior Infrastructure Security Engineer at <Text as="span" size="xl" weight="strong">Salesforce</Text>, specializing in AI security governance, cloud infrastructure, and threat modeling for emerging technologies.
 </>
   ),
 };
