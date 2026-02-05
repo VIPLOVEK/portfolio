@@ -8,7 +8,7 @@ const person: Person = {
   role: "Senior Infrastructure Security Engineer",
   avatar: "/images/avatar-new.jpg",
   email: "viplovekarhade@gmail.com",
-  location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/New_York", // IANA timezone for clock; display name hardcoded in Header.tsx and about/page.tsx
   languages: ["English", "Hindi", "Marathi"], // optional: Leave the array empty if you don't want to display languages
 };
 
