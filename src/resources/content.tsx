@@ -177,94 +177,61 @@ const about: About = {
     title: "Core Competencies & Certifications",
     skills: [
       {
-        title: "Cloud & Container Security",
+        title: "AI & Agentic Security",
         description: (
-          <>Expert in AWS cloud security architecture, Kubernetes security hardening, Docker containerization security, and
-          microservices security patterns. Certified Kubernetes Administrator (CKA) and AWS Cloud Practitioner with hands-on
-          experience securing enterprise container orchestration platforms, implementing RBAC policies, network policies,
-          pod security standards, and admission controllers.</>
+          <>Building the security foundations for AI-powered development at enterprise scale. My work focuses on
+          establishing architectural standards and governance for emerging technologies like MCP, defining how AI coding
+          tools are safely adopted across large developer populations, and investigating new threat classes like prompt
+          injection and Shadow AI. This is where infrastructure security meets the frontier of how software gets built.</>
         ),
         tags: [
-          {
-            name: "Kubernetes",
-            icon: "kubernetes",
-          },
-          {
-            name: "Docker",
-            icon: "docker",
-          },
-          {
-            name: "AWS",
-            icon: "aws",
-          },
-        ],
-        images: [],
-      },
-      {
-        title: "AI/LLM Security & AI Coding Tools",
-        description: (
-          <>Specialized in securing AI systems, LLM applications, and AI agent architectures. Expert in prompt injection
-          defense, AI model security, securing RAG pipelines, and AI coding tool security assessments. Proficient with
-          GitHub Copilot, Claude Code, Cursor, and other AI-powered development tools. Experience evaluating security
-          implications of AI code generation, agent-based systems, and autonomous AI workflows in enterprise environments.</>
-        ),
-        tags: [
-          { name: "LLM Security", icon: "openai" },
-          { name: "Prompt Injection", icon: "shield" },
-          { name: "RAG Pipelines", icon: "lock" },
+          { name: "MCP", icon: "shield" },
+          { name: "Kubernetes", icon: "kubernetes" },
           { name: "Python", icon: "python" },
         ],
         images: [],
       },
       {
-        title: "Security Architecture & Threat Modeling",
+        title: "Infrastructure & Cloud Security",
         description: (
-          <>Specialized in infrastructure security architecture, comprehensive threat modeling frameworks (STRIDE, PASTA),
-          architecture risk analysis, and security design reviews. Expertise in implementing secure-by-design principles,
-          zero-trust architectures, CI/CD pipeline security, DevSecOps automation, and automated security assurance
-          frameworks for complex hybrid and multi-cloud enterprise environments.</>
+          <>Securing the platforms that run core services — from GCP and AWS environments to Kubernetes clusters and
+          production access infrastructure. My approach centers on systemic risk: identifying where architectural decisions
+          create compounding exposure, and designing governance frameworks that reduce attack surface without blocking
+          engineering velocity.</>
         ),
         tags: [
-          { name: "Threat Modeling", icon: "shield" },
-          { name: "Zero Trust", icon: "lock" },
-          { name: "Terraform", icon: "terraform" },
-          { name: "Linux", icon: "linux" },
+          { name: "GCP", icon: "gcp" },
+          { name: "AWS", icon: "aws" },
+          { name: "Kubernetes", icon: "kubernetes" },
+          { name: "Docker", icon: "docker" },
         ],
         images: [],
       },
       {
-        title: "Penetration Testing & Secure Development",
+        title: "Product Security & Offensive Testing",
         description: (
-          <>Proficient in web application penetration testing (OWASP Top 10), mobile security assessments (Android SDK & iOS
-          platforms), API security testing, network infrastructure security, and secure code review methodologies. Expert
-          with industry-standard penetration testing tools (Burp Suite, Metasploit, OWASP ZAP), static/dynamic analysis
-          tools (SAST/DAST), and container security scanners (Trivy, Aqua, Prisma Cloud). Strong development background
-          in Java, Node.js, Angular, Python, and Android development.</>
+          <>Six years of hands-on security consulting built a deep foundation in breaking and fixing applications. Web,
+          mobile (iOS/Android), network, and API assessments using tools like Burp Suite and AppScan, combined with
+          Architecture Risk Analysis to find design-level flaws that code-level testing misses. This offensive background
+          informs how I approach defensive security architecture today.</>
         ),
         tags: [
           { name: "Burp Suite", icon: "burpsuite" },
-          { name: "OWASP Top 10", icon: "shield" },
-          { name: "JavaScript", icon: "javascript" },
+          { name: "Threat Modeling", icon: "shield" },
+          { name: "Java", icon: "java" },
           { name: "Python", icon: "python" },
-          { name: "Android", icon: "android" },
-          { name: "Go", icon: "go" },
         ],
         images: [],
       },
       {
-        title: "Professional Certifications",
+        title: "Certifications",
         description: (
           <>
-            • Certified Kubernetes Administrator (CKA)
-            <br />• AWS Cloud Practitioner
-            <br />• Access Controls by (ISC)²
-            <br />• Computer Forensics Essential Training
+            • Certified Kubernetes Administrator (CKA) — 2024–2027
           </>
         ),
         tags: [
           { name: "CKA", icon: "kubernetes" },
-          { name: "AWS", icon: "aws" },
-          { name: "ISC²", icon: "shield" },
         ],
         images: [],
       },
